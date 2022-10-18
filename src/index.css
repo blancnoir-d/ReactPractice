@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*App.js에 보면 className이 App*/
+.App {
+  padding: 20px;
+}
