@@ -1,11 +1,12 @@
 import Home from "./pages/Home"
 import React from "react";
-import {Routes, Route, Link} from "react-router-dom";
+import {Routes, Route, Link, useNavigate} from "react-router-dom";
 import About from "./pages/About";
 import Counter from "./pages/Counter";
 import Input from "./pages/Input";
 import Input2 from "./pages/Input2";
 import List from "./pages/List";
+import Test from "./pages/Test";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/input" element={<Input />}/>
                 <Route path="/input2" element={<Input2 />}/>
                 <Route path="/list" element={<List />}/>
+                <Route path="/test" element={<Test />}/>
             </Routes>
 
         </div>
